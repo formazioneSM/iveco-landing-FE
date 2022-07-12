@@ -34,7 +34,7 @@ export class Landing1Component implements AfterViewInit {
   }
 
   ngAfterViewInit(){
-
+ 
     var ivecoLiveFrame = document.getElementById("24112144");
     if (!ivecoLiveFrame) { 
       this.isLive = false;  

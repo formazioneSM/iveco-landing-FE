@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+section, body{
+    background-image: url('assets/images/background.png');
+    background-position: center;
+    background-size: cover;
+}
+.accordion-button.collapsed::after {
+    position: absolute;
+    right: 40px;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>")!important;
+  
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    position: absolute;
+    right: 40px;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>")!important;
+    transform: rotate(180deg);
+  
+  }
+section{
+    width: 100vw;
+    height: 100vh;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #20346b; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #172144;     
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #263459; 
+  }
+:root{
+    --color: white;
+}
+@import "node_modules/bootstrap/scss/bootstrap";
+@font-face {
+    font-family: codec-heavy;
+    src: url(assets/fonts/Codec-Warm-Heavy-trial.ttf);
+}
+@font-face {
+    font-family: codec-light;
+    src: url(assets/fonts/Codec-Warm-Light-trial.ttf);
+}
+@font-face {
+    font-family: codec-bold;
+    src: url(assets/fonts/Codec-Warm-Bold-trial.ttf);
+}
+@font-face {
+    font-family: codec;
+    src: url(assets/fonts/Codec-Warm-Regular-trial.ttf);
+}
+@font-face {
+    font-family: seguisym;
+    src: url(assets/fonts/seguisym.ttf);
+}
+@font-face {
+    font-family: selawk;
+    src: url(assets/fonts/selawk.ttf);
+}
+@font-face {
+    font-family: selawk-bold;
+    src: url(assets/fonts/selawkb.ttf);
+}
+@font-face {
+    font-family: selawk-light;
+    src: url(assets/fonts/selawkl.ttf);
+}
+@font-face {
+    font-family: selawk-light-italic;
+    src: url(assets/fonts/selawksl.ttf);
+}
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: codec;
+}
+body{
+    overflow-x: hidden;
+}

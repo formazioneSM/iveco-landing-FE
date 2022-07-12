@@ -1,0 +1,1 @@
+declare module 'ibm-video-streaming-web-player-api';

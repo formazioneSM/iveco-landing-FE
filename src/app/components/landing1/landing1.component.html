@@ -1,0 +1,341 @@
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<section id="home">
+  <div class="container-fluid" style="height: 100%;">
+    <div class="row justify-content-center" style="height: 90%;">
+      <div class="column align-self-center">
+        <img src="assets/images/beyond.png" class="mx-auto d-block img-fluid beyond" alt="">
+        <p class="titleUnderLogo">{{'ALL.HOME.UNDERBEYOND.PLACEANDDATES' | translate}} {{'ALL.HOME.UNDERBEYOND.MONTH' |
+          translate}} 2022<br>
+          {{'ALL.HOME.UNDERBEYOND.LIVEFROM' | translate}} OFFICINE GRANDI RIPARAZIONI</p>
+
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="column align-self-center">
+        <img (click)="scrollTop()" src="assets/images/up.png" class="mx-auto d-block img-fluid up" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="livestreamingin" [style.overflow]="isLive ? 'visible' : 'hidden'" [style.height]="isLive ? 'auto' : '100vh'">
+  <div class="sectionTitle">
+    <div>Live Streaming</div>
+    <div *ngIf="!isLive">{{'ALL.LIVESTREAMINGIN.TITLE' | translate}}</div>
+  </div>
+  <div [ngClass]="{'showIframe' : isLive, 'iframeContainer' : !isLive}">
+    <iframe allowfullscreen webkitallowfullscreen referrerpolicy="no-referrer-when-downgrade" frameborder="no"
+      width="100%" height="100%" style="border: 0;" id="24112144"
+      src="https://video.ibm.com/embed/24112144?volume=0&autoplay=true&controls=true&showtitle=false&showtheatre=true&showpopout=true"></iframe>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="column align-self-center">
+        <app-ring-counter (end)="toggleLive()"  *ngIf="!isLive" date="'Wednesday, July 13, 2022 12:00:00 PM'">
+        </app-ring-counter>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="!isLive" class="containerPlanetImage">
+
+    <img src="assets/images/pianeta.png" class="mx-auto d-block img-fluid" alt="">
+
+  </div>
+  <!-- <button (click)="toggleLive()">toggle live</button> -->
+</section>
+<section id="event" >
+  <div class="sectionTitle" id="title">
+    <div>{{'ALL.EVENT.TITLE' | translate}}</div>
+  </div>
+  <div class="containerImg">
+      <div class="containerText">
+        {{'ALL.EVENT.TEXT' | translate}}
+      </div>
+    </div>
+</section>
+<section id="program">
+  <div class="sectionTitle" id="title">
+    <div>{{'ALL.PROGRAM.TITLE' | translate}}</div>
+  </div>
+  <div *ngFor="let p of programData;let i = index" class="programRow">
+    <div class="date"><span>{{'ALL.PROGRAM.PROGRAMS.'+i+'.DATE' | translate}}</span> <div class="verticalSeparator"></div></div>
+    <div  class="containerProgramDetail">
+      <div class="programTitle">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TITLE' | translate}}</div>
+      <div *ngFor="let t of p.time;let it = index">
+        <div  class="programTimeAndText">
+          <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TIME' | translate}}</div>
+          <div class="programText">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TEXT' | translate}}</div>
+        </div>
+        <div *ngIf="t" class="horizontalSeparator"></div>
+      </div>
+      <!-- <div *ngFor="let t of p.time;let it = index" class="programTimeAndText">
+        <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TIME' | translate}}</div>
+        <div class="programText">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TEXT' | translate}}</div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <div class="programRow">
+    <div class="date"><span>{{'ALL.PROGRAM.PROGRAMS.1.DATE' | translate}}</span> <div class="verticalSeparator"></div></div>
+    <div class="containerProgramDetail">
+      <div class="programTitle">{{'ALL.PROGRAM.PROGRAMS.1.TITLE' | translate}}</div>
+      <div class="programTimeAndText">
+        <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.1.TIMES.0.TIME' | translate}}</div>
+        <div class="programText">{{'ALL.PROGRAM.PROGRAMS.1.TIMES.0.TEXT' | translate}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="programRow">
+    <div class="date"><span>{{'ALL.PROGRAM.PROGRAMS.2.DATE' | translate}}</span> <div class="verticalSeparator"></div></div>
+    <div class="containerProgramDetail">
+      <div class="programTitle">{{'ALL.PROGRAM.PROGRAMS.2.TITLE' | translate}}</div>
+      <div class="programTimeAndText">
+        <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.0.TIME' | translate}}</div>
+        <div class="programText">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.0.TEXT' | translate}}</div>
+      </div>
+      <div class="horizontalSeparator"></div>
+      <div class="programTimeAndText">
+        <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.1.TIME' | translate}}</div>
+        <div class="programText">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.1.TEXT' | translate}}</div>
+      </div>
+      <div class="horizontalSeparator"></div>
+      <div class="programTimeAndText">
+        <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.2.TIME' | translate}}</div>
+        <div class="programText">{{'ALL.PROGRAM.PROGRAMS.2.TIMES.2.TEXT' | translate}}</div>
+      </div>
+
+    </div>
+  </div> -->
+</section>
+ <section id="speakers">
+  <!-- <img src="../assets/images/background_sppechs.png" id="bgSpeechs" alt=""> -->
+  <div class="sectionTitle" id="title">
+    <div>{{'ALL.SPEAKERS.TITLE' | translate}}</div>
+  </div>
+  <div class="containerImg">
+      
+      <div class="containerText">
+        {{'ALL.SPEAKERS.TEXT' | translate}}
+      </div>
+    </div>
+</section>
+<section id="speakers2">
+  <div class="sectionTitle" id="title">
+    <div>{{'ALL.SPEAKERS.TITLE' | translate}}</div>
+  </div>
+    
+     
+      <div *ngFor="let s of speakersData;let i = index">
+        <div class="programRow" style=" box-shadow: 0px 32px 38px 0px #00000061;">
+          <div class="date"><span>{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DATE' | translate}}</span> <div class="verticalSeparator"></div></div>
+          <div class="containerProgramDetail">
+            <div class="programTitle">
+              <div>{{'ALL.SPEAKERS.PROGRAMS.'+i+'.TITLE' | translate}}</div>
+              <div>{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SUBTITLE' | translate}}</div>
+            </div>
+          </div>
+        </div>
+     
+
+    
+     <div [id]="s.id" class="accordion-collapse collapse show" attr.aria-labelledby="{{s.idHeading}}" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="padding:0;">
+    <div class="speechTitles">
+      {{'ALL.SPEAKERS.PROGRAMS.'+i+'.KEYNOTESSPEECHS.TITLE' | translate}}
+    </div>
+    <div  class="speakersWrapper">
+      <div class="verticalSeparator"></div>
+      <div *ngFor="let sp of s.keynoteSpeechs;let si = index" class="speaker col">
+        <!-- <div class="horizontalSeparator"></div>
+        <div class="title">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.TITLE' | translate}}</div>
+        <div class="horizontalSeparator"></div> -->
+        <div class="speakerdate">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.DATE' | translate}}</div>
+        <div class="horizontalSeparator"></div>
+        <div class="text">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.TEXT' | translate}}</div>
+        
+        <div class="imageAndText">
+          <!-- <div class="speakerImage">
+             <img src="../../../assets/images/guido-saracco.png" alt=""> 
+             <img [src]="sp" alt="">
+            
+          </div> -->
+          <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.NAME' | translate}} </span>
+            <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.SURNAME' | translate}}</span></div>
+            <div class="horizontalSeparator"></div>
+          <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.ROLE' | translate}}</div>
+        </div>
+        <div class="heavyHorizontalSeparator"></div>
+      </div>
+      <div class="verticalSeparator"></div>
+    </div>
+    <div class="speechTitles">
+      {{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETS.TITLE' | translate}}
+    </div>
+    <div class="duetsWrapper">
+      <div class="verticalSeparator"></div>
+      <div *ngFor="let d of s.duets;let id = index" class="duet col">
+        <!-- <div class="horizontalSeparator"></div>
+        <div class="title">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.TITLE' | translate}}</div>
+        <div class="horizontalSeparator"></div> -->
+        <div class="duetdate">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.DATE' | translate}}</div>
+        <div class="horizontalSeparator"></div>
+        <div class="text">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.TEXT' | translate}}</div>
+        
+        <div class="imageAndText">
+          <!-- <div class="duetImage">
+             <img src="../../../assets/images/luca-sra.png" alt=""> 
+             <img [src]="d.img1" alt="">
+          </div> -->
+          <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.NAME1' | translate}} </span>
+            <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.SURNAME1' | translate}}</span></div>
+            <div class="horizontalSeparator"></div>
+          <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.ROLE1' | translate}}</div>
+        </div>
+        <div class="imageAndText" style="margin: 0 0 15px 0">
+          <!-- <div class="duetImage">
+             <img src="../../../assets/images/giulia-genuardi.jpg" alt=""> 
+             <img [src]="d.img2" alt="">
+          </div> -->
+          <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.NAME2' | translate}} </span>
+            <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.SURNAME2' | translate}}</span></div>
+            <div class="horizontalSeparator"></div>
+          <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.ROLE2' | translate}}</div>
+        </div>
+        <div class="heavyHorizontalSeparator"></div>
+      </div>
+      <div class="verticalSeparator"></div>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+</section> 
+<section id="sustainability">
+  <div class="sectionTitle" id="title">
+    <div>{{'ALL.SUSTAINABILITY.TITLE' | translate}}</div>
+  </div>
+  <div class="containerImg">
+      <!-- <img class="mx-auto d-block img-fluid" src="assets/images/event.png" alt=""> -->
+      <div class="containerText">
+        <!-- <div class="titleSustainability">
+          {{'ALL.SUSTAINABILITY.TEXT.TITLE' | translate}}  
+        </div> -->
+
+        {{'ALL.SUSTAINABILITY.TEXT.BODY' | translate}}
+        <ul>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.0' | translate}}</li>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.1' | translate}}</li>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.2' | translate}}</li>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.3' | translate}}</li>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.4' | translate}}</li>
+          <li>{{'ALL.SUSTAINABILITY.TEXT.LIST.5' | translate}}</li>
+        </ul>
+      </div>
+    </div>
+</section> 
+<footer id="footer">
+  <div class="container-fluid">
+    <div class="row  p-3">
+      <div class="horizontalSeparator"></div>
+      <div class="footerLogoWrapper">
+        <div class="footerLogoContainer">
+          <a href="https://www.ivecocapital.com/it_it" target="_blank">
+            <img class="img" src="assets/images/iveco-capital.png" alt="">
+          </a>
+          <a href="https://www.heuliezbus.com/fr/" target="_blank">
+            <img class="img" src="assets/images/heuliez.png" alt="">
+          </a>
+          <a href="https://www.iveco.com/Pages/welcome-ivecobus.html" target="_blank">
+            <img class="img" src="assets/images/iveco-bus.png" alt="">
+          </a>
+          <img class="img" src="assets/images/footer-separator.png" alt="">
+          <a href="https://www.iveco.com/Pages/welcome.html" target="_blank">
+            <img class="img" src="assets/images/iveco.png" alt="">
+          </a>
+          <a href="https://www.fptindustrial.com/global/it" target="_blank">
+            <img class="img" src="assets/images/ftp.png" alt="">
+          </a>
+          <img class="img" src="assets/images/footer-separator.png" alt="">
+          <a href="https://www.idvgroup.com/" target="_blank">
+            <img class="img" src="assets/images/idv.png" alt="">
+          </a>
+          <a href="https://www.astra-trucks.com/en/" target="_blank">
+            <img class="img" src="assets/images/astra.png" alt="">
+          </a>
+          <a href="https://www.magirusgroup.com/de/en/home/" target="_blank">
+            <img class="img" src="assets/images/magirius.png" alt="">
+          </a>
+        </div>
+        <div class="footerLogoContainerMobile">
+          <a href="https://www.iveco.com/Pages/welcome.html" target="_blank">
+            <img class="img" src="assets/images/iveco.png" alt="">
+          </a>
+          <a href="https://www.iveco.com/Pages/welcome-ivecobus.html" target="_blank">
+            <img class="img" src="assets/images/iveco-bus.png" alt="">
+          </a>
+          <a href="https://www.heuliezbus.com/fr/" target="_blank">
+            <img class="img" src="assets/images/heuliez.png" alt="">
+          </a>
+          <a href="https://www.ivecocapital.com/it_it" target="_blank">
+            <img class="img" src="assets/images/iveco-capital.png" alt="">
+          </a>
+         
+          <a href="https://www.fptindustrial.com/global/it" target="_blank">
+            <img class="img" src="assets/images/ftp.png" alt="">
+          </a>
+
+          <a href="https://www.idvgroup.com/" target="_blank">
+            <img class="img" src="assets/images/idv.png" alt="">
+          </a>
+          <a href="https://www.astra-trucks.com/en/" target="_blank">
+            <img class="img" src="assets/images/astra.png" alt="">
+          </a>
+          <a href="https://www.magirusgroup.com/de/en/home/" target="_blank">
+            <img class="img" src="assets/images/magirius.png" alt="">
+          </a>
+        </div>
+      </div>
+        <div class="horizontalSeparator"></div>
+    </div>
+    <div class="row  p-3">
+      <div class="col">
+        <div class="textFooter">
+          <a href="javascript:Cookiebot.show()" >Cookie Policy</a>  | 
+          <a href="https://www.ivecogroup.com/legal/legal_notes">{{'ALL.FOOTER.LEGALNOTES' | translate}}</a>   
+         <!-- <a href="https://www.ivecogroup.com/legal/privacy_request_form">
+          {{'ALL.FOOTER..PRIVACYREQUESTFORM' | translate}} 
+         </a> | 
+         <a href="https://www.ivecogroup.com/media/email_alert">
+          {{'ALL.FOOTER..EMAILALERTS' | translate}}
+         </a>  -->
+        </div>
+        <div class="textFooter">
+          © <span id="footerDate">2022</span> Iveco Group NV. {{'ALL.FOOTER.ALLRIGHTSRESERVED' | translate}}.
+        </div>
+      </div>
+      <div class="col">
+        <div class="footerLogoWrapper">
+       
+          <div class="footerLogoContainerSocial" style="padding: 0;margin-right:0;">
+            <a href="https://www.ivecogroup.com/" target="_blank">
+              <img class="img" src="assets/images/logo-iveco-group.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/company/iveco-group/" target="_blank">
+              <img class="img" src="assets/images/linkedin.png" alt="">
+            </a>
+            <a href="https://twitter.com/ivecogroup_" target="_blank">
+              <img class="img" src="assets/images/twitter.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/Iveco-Group-105520165212255/" target="_blank">
+              <img class="img" src="assets/images/facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UCoy3VERjFXo3ubxN6SUEHGg" target="_blank">
+              <img class="img" src="assets/images/youtube.png" alt="">
+            </a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

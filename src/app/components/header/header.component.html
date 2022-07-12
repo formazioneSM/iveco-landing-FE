@@ -1,0 +1,44 @@
+<nav class="navbar fixed-top navbar-expand-lg  "><!--fixed-top-->
+    <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="[]"  fragment="home"><img src="assets/images/logo-iveco-group.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <!-- <li class="nav-item">
+                    <a class="nav-link active" style="color: white" aria-current="page" href="#home">{{ 'NAVBAR.HOME' | translate }}</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: white" aria-current="page" [routerLink]="[]"  fragment="livestreamingin">{{ 'NAVBAR.LIVESTRAMING' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white" [routerLink]="[]"  fragment="event" >{{ 'NAVBAR.EVENT' | translate }}</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " style="color: white" [routerLink]="[]"  fragment="program" >{{ 'NAVBAR.PROGRAM' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " style="color: white" [routerLink]="[]"  fragment="speakers" >{{ 'NAVBAR.SPEAKERS' | translate }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " style="color: white" [routerLink]="[]"  fragment="sustainability" >{{ 'NAVBAR.SUSTAINABILITY' | translate }}</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link " style="color: white" href="#footer">{{ 'NAVBAR.FOOTER' | translate }}</a>
+                </li> -->
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{translate.currentLang | uppercase}}
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li *ngFor="let l of languages"><a class="dropdown-item" (click)="changeLanguage(l)">{{l | uppercase}}</a></li>
+                </ul>
+              </div>
+        </div>
+      
+    </div>
+</nav>

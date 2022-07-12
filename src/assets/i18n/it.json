@@ -1,0 +1,336 @@
+{
+    "NAVBAR":{
+        "HOME":"Beyond | Iveco Group",
+        "LIVESTRAMING": "Live Streaming",
+        "EVENT": "L'Evento",
+        "PROGRAM": "Il Programma",
+        "SPEAKERS": "Gli Speakers",
+        "SUSTAINABILITY": "Sostenibilità Evento",
+        "FOOTER": "Privacy"
+    },
+    "ALL":{
+        "HOME": {
+            "UNDERBEYOND":{
+                "PLACEANDDATES": "Torino, 13 – 17",
+                "MONTH":"Luglio",
+                "LIVEFROM": "Live da "
+            }
+        },
+        "LIVESTREAMINGIN":{
+            "TITLE":"tra",
+            "DAYS":"giorni",
+            "HOURS":"ore",
+            "MINUTES":"minuti",
+            "SECONDS":"secondi"
+        },
+        "EVENT":{
+            "TITLE": "L'Evento",
+            "TEXT": "Una settimana di eventi a Torino, alle Officine Grandi Riparazioni, durante i quali Iveco Group condividerà con i principali partners e rappresentanti del settore la sua visione sui temi della Tecnologia, Sostenibilità e Partnership. Tavole rotonde, Dialoghi e Presentazioni saranno proposti al pubblico giornalmente, con un programma ricco di contenuti legati ai temi più rilevanti del nostro settore, quali il futuro del trasporto, la mobilità urbana, le propulsioni alternative e le tecnologie del futuro, le fabbriche intelligenti e i nuovi modelli finanziari. Segui l’evento e condividi la nostra visione!"
+        },
+        "PROGRAM":{
+            "TITLE": "Il Programma",
+            "PROGRAMS":[
+                {
+                    "DATE": "13 luglio:",
+                    "TITLE":"Inaugurazione evento & FUTURE DUETS",
+                    "TIMES":[
+                        {
+                            "TIME":"12:00",
+                            "TEXT":"Conferenza stampa"
+                        },
+                        {
+                            "TIME":"14:30 – 18:30",
+                            "TEXT":"Future Duets – Conversazioni con esperti del settore"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "14 luglio:",
+                    "TITLE":"Sessione TECNOLOGIA",
+                    "TIMES":[
+                        {
+                            "TIME":"14:30 – 17:10",
+                            "TEXT":"Presentazioni e Tavole rotonde su Intelligenza artificiale, trend dell’automazione, Roadmap Tecnologica delle Propulsioni, Digitalizzazione"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "15 luglio:",
+                    "TITLE":"Sessioni SOSTENIBILITA’ e PARTNERSHIP",
+                    "TIMES":[
+                        {
+                            "TIME":"10:30 – 13:30",
+                            "TEXT":"Presentazioni e Tavole rotonde su Combustibili e Trazioni alternative e il futuro dell’Industria del Trasporto"
+                        },
+                        {
+                            "TIME":"15:00 – 15:30",
+                            "TEXT":"Dialogo con il CEO di Iveco Group, Gerrit Marx , sui temi della Collaborazione e Partnership “The Iveco Group Way“"
+                        },
+                        {
+                            "TIME":"15:40 – 16:20",
+                            "TEXT":"Tavola Rotonda FPT Industrial sulle collaborazioni come chiave di successo e di innovazione"
+                        },
+                        {
+                            "TIME":"17:00 – 18:30",
+                            "TEXT":"BEYOND - #TalkingOperations – Tavola Rotonda Operations e Cerimonia di Premiazione"
+                        }
+                    ]
+                }
+            ]
+        },
+        "SPEAKERS":{
+            "TITLE": "Gli Speakers",
+            "TEXT": "Professori universitari, Esperti del settore, Partners, Associazioni, Amministratori Delegati di importanti aziende, Fondatori di Start Up e il Senior Leadership Team di Iveco Group contribuiranno ogni giorno alle discussioni secondo i temi del programma.",
+            "PROGRAMS":[
+                {
+                    "DATE": "13 luglio:",
+                    "TITLE":"Duetti futuri: ",
+                    "SUBTITLE": "Discussioni moderate con esperti del settore",
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "DISCORSI PRINCIPALI"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "14.30-14.40",
+                            "TEXT": "SKILLS FOR THE FUTURE MOBILITY: How hig-level trainig is changed",
+                            "NAME":"GUIDO",
+                            "SURNAME":"SARACCO",
+                            "ROLE":"Rector, politecnico di Torino"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 2",
+                            "DATE": "15.30-15.40",
+                            "TEXT": "THE DEVELOPMENT OF SUSTAINABLE MOBILITY",
+                            "NAME":"ANTHEA",
+                            "SURNAME":"GRECO",
+                            "ROLE":"Partnerships Lead, Via"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.30-16.40",
+                            "TEXT": "COFFEE, PIZZA & POP CORN  AND THE FUTURE OF MOBILITY",
+                            "NAME":"BERNARDO",
+                            "SURNAME":"BERTOLDI",
+                            "ROLE":"Professor of Economics and Business Management, University of Turin"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 4",
+                            "DATE": "17.40-17.50",
+                            "TEXT": "ARTIFICIAL INTELLIGENCE TO IMAGINE THE FACTORY OF THE FUTURE",
+                            "NAME":"MASSIMO",
+                            "SURNAME":"CAVAZZINI",
+                            "ROLE":"Head of Industrial EMEA, AWS"
+                        }
+                    ],
+                    "DUETS":{
+                        "TITLE":"DUETTI"
+                    },
+                    "DUETSDATA": [
+                        {
+                            "TITLE": "DUET 1",
+                            "DATE": "14.50-15.20",
+                            "TEXT": "THE SUSTAINABLE FUTURE OF ROAD TRANSPORT",
+                            "NAME1":"LUCA",
+                            "SURNAME1":"SRA",
+                            "ROLE1":"President, Truck Business Unit, Iveco Group",
+                            "NAME2":"GIULIA",
+                            "SURNAME2":"GENUARDI",
+                            "ROLE2":"Head of Sustainability Planning and Performance Management, Enel"
+                        },
+                        {
+                            "TITLE": "DUET 2",
+                            "DATE": "15.50-16.20",
+                            "TEXT": "THE FUTURE OF URBAN MOBILITY",
+                            "NAME1":"DOMENICO",
+                            "SURNAME1":"NUCERA",
+                            "ROLE1":"President, Bus Business Unit, Iveco Group",
+                            "NAME2":"MOHAMED",
+                            "SURNAME2":"MEZGHANI",
+                            "ROLE2":"Secretary General, UITP"
+                        },
+                        {
+                            "TITLE": "DUET 3",
+                            "DATE": "17.00-17.30",
+                            "TEXT": "NEW BUSINESS MODELS FOR MOVING  PEOPLE AND GOODS",
+                            "NAME1":"SIMONE",
+                            "SURNAME1":"OLIVATI",
+                            "ROLE1":"President, Financial Services, Iveco Group",
+                            "NAME2":"NOTHACKER",
+                            "SURNAME2":"DAVID",
+                            "ROLE2":"Co-Founder & CEO, Sennder"
+                        },
+                        {
+                            "TITLE": "DUET 4",
+                            "DATE": "18.00-18.30",
+                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE – PROOF OPERATIONAL SKILLS",
+                            "NAME1":"ANNALISA",
+                            "SURNAME1":"STUPENENGO",
+                            "ROLE1":"Chief Operations Officer, Iveco Group",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"AVINO",
+                            "ROLE2":"Chief Executive Officer, Argotec"
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        "SUSTAINABILITY":{
+            "TITLE": "Sostenibilità Evento",
+            "TEXT": {
+                "TITLE": "ARGOMENTO DEL TALK: SOSTENIBILITA'",
+                "BODY": "Le emissioni di CO2  dell’evento BEYOND – Iveco Group Days saranno calcolate, ridotte e compensate attraverso il progetto LifeGate Impatto Zero. Durante l’evento:",
+                "LIST":
+                [
+                    "Le bottiglie d’acqua sono in Bio Bottle, un materiale biodegradabile al 100%",
+                    "I tappi delle bottiglie verranno donati alla casa di accoglienza La Madonnina di Candiolo ONLUS per supportare il loro autofinanziamento",
+                    "Per ridurre i consumi verranno utilizzate solo luci led a supporto di palco e scene",
+                    "Il tradizionale “gadget” è stato sostituito dall’adozione di un progetto sociale gestito dalla ONLUS Save the Children, per contrastare la povertà educativa in Italia ",
+                    "Ogni giorno il cibo non consumato viene donato al programma FOOD FOR GOOD a cura di Federcongressi&eventi",
+                    "I materiali distribuiti durante l’evento sono realizzati con materie prime riciclate o riciclabili"
+                ]
+            }
+        },
+        "FOOTER":{
+            "LEGALNOTES": "NOTE LEGALI",
+            "PRIVACYREQUESTFORM":"FORM PRIVACY",
+            "EMAILALERTS":"NOTIFICHE E-MAIL",
+            "ALLRIGHTSRESERVED" : "Tutti i diritti riservati"
+        }
+    },
+    "OPERATIONS":{
+        "HOME": {
+            "UNDERBEYOND":{
+                "PLACEANDDATES": "Torino, 13 – 17",
+                "MONTH":"Luglio",
+                "LIVEFROM": "Live da "
+            }
+        },
+        "LIVESTREAMINGIN":{
+            "TITLE":"tra",
+            "DAYS":"giorni",
+            "HOURS":"ore",
+            "MINUTES":"minuti",
+            "SECONDS":"secondi"
+        },
+        "EVENT":{
+            "TITLE": "L'Evento",
+            "TEXT": "Una settimana di eventi a Torino, alle Officine Grandi Riparazioni, durante i quali Iveco Group condividerà con i principali partners e rappresentanti del settore la sua visione sui temi della Tecnologia, Sostenibilità e Partnership. Tavole rotonde, Dialoghi e Presentazioni saranno proposti al pubblico giornalmente, con un programma ricco di contenuti legati ai temi più rilevanti del nostro settore, quali il futuro del trasporto, la mobilità urbana, le propulsioni alternative e le tecnologie del futuro, le fabbriche intelligenti e i nuovi modelli finanziari. Segui l’evento e condividi la nostra visione !"
+        },
+        "PROGRAM":{
+            "TITLE": "Il Programma",
+            "PROGRAMS":[
+                {
+                    "DATE": "13 luglio:",
+                    "TITLE":"Inaugurazione evento & FUTURE DUETS",
+                    "TIMES":[
+                        {
+                            "TIME":"12:00",
+                            "TEXT":"Conferenza stampa"
+                        },
+                        {
+                            "TIME":"14:30 – 18:30",
+                            "TEXT":"Future Duets – Conversazioni con esperti del settore"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "14 luglio:",
+                    "TITLE":"Sessione TECNOLOGIA",
+                    "TIMES":[
+                        {
+                            "TIME":"14:30 – 17:10:",
+                            "TEXT":"Presentazioni e Tavole rotonde su Intelligenza artificiale, trend dell’automazione, Roadmap Tecnologica delle Propulsioni, Digitalizzazione"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "15 luglio:",
+                    "TITLE":"Sessioni SOSTENIBILITA’ e PARTNERSHIP",
+                    "TIMES":[
+                        {
+                            "TIME":"10:30 – 13:30:",
+                            "TEXT":"Presentazioni e Tavole rotonde su Combustibili e Trazioni alternative e il futuro dell’Industria del Trasporto"
+                        },
+                        {
+                            "TIME":"15:00 – 15:30",
+                            "TEXT":"Dialogo con Il CEO di Iveco Group, Gerrit Marx , sui temi della Collaborazione e Partnership “The Iveco Group Way“"
+                        },
+                        {
+                            "TIME":"15:40 – 16:20",
+                            "TEXT":"Tavola Rotonda FPT Industrial sulle collaborazioni come chiave di successo e di innovazione"
+                        },
+                        {
+                            "TIME":"17:00 – 18:00",
+                            "TEXT":"BEYOND - #TalkingOperations – Tavola Rotonda Operations e Cerimonia di Premiazione"
+                        }
+                    ]
+                }
+            ]
+        },
+        "SPEAKERS":{
+            "TITLE": "Gli Speakers",
+            "TEXT": "Professori universitari, Esperti del settore, Partners, Associazioni, Amministratori Delegati di importanti aziende, Fondatori di Start Up e il Senior Leadership Team di Iveco Group contribuiranno ogni giorno alle discussioni secondo i temi del programma",
+            "PROGRAMS":[
+                {
+                    "DATE": "13 luglio:",
+                    "TITLE":"Duetti futuri: ",
+                    "SUBTITLE": "Discussioni moderate con esperti del settore"
+                }
+            ],
+            "KEYNOTESSPEECHS": {
+                "TITLE": "DISCORSI PRINCIPALI"
+            },
+            "SPEAKERSDATA":[
+                {
+                    "TITLE": "KEYNOTE SPEECH 1",
+                    "DATE": "14.30-14.40",
+                    "TEXT": "SKILLS FOR THE FUTURE MOBILITY: How hig-level trainig is changed",
+                    "NAME":"GUIDO",
+                    "SURNAME":"SARACCO",
+                    "ROLE":"Rector, politecnico di Torino"
+                }
+            ],
+            "DUETS":{
+                "TITLE":"DUETTI"
+            },
+            "DUETSDATA": [
+                {
+                    "TITLE": "KEYNOTE SPEECH 1",
+                    "DATE": "14.30-14.40",
+                    "TEXT": "SKILLS FOR THE FUTURE MOBILITY: How hig-level trainig is changed",
+                    "NAME1":"GUIDO",
+                    "SURNAME1":"SARACCO",
+                    "ROLE1":"Rector, politecnico di Torino",
+                    "NAME2":"GUIDO",
+                    "SURNAME2":"SARACCO",
+                    "ROLE2":"Rector, politecnico di Torino"
+                }
+            ]
+        },
+        "SUSTAINABILITY":{
+            "TITLE": "Sostenibilità Evento",
+            "TEXT": {
+                "TITLE": "ARGOMENTO DEL TALK: SOSTENIBILITA'",
+                "BODY": "Le emissioni di CO2  dell’evento BEYOND – Iveco Group Days saranno calcolate, ridotte e compensate attraverso il progetto LifeGate Impatto Zero. Durante l’evento:",
+                "LIST":
+                [
+                    "Le bottiglie d’acqua sono in Bio Bottle, un materiale biodegradabile al 100%",
+                    "I tappi delle bottiglie verranno donati alla casa di accoglienza La Madonnina di Candiolo ONLUS per supportare il loro autofinanziamento",
+                    "Per ridurre i consumi verranno utilizzate solo luci led a supporto di palco e scene",
+                    "Il tradizionale “gadget” è stato sostituito dall’adozione di un progetto sociale gestito dalla ONLUS Save the Children, per contrastare la povertà educativa in Italia ",
+                    "Ogni giorno il cibo non consumato viene donato al programma FOOD FOR GOOD a cura di Federcongressi&eventi",
+                    "I materiali distribuiti durante l’evento sono realizzati con materie prime riciclate o riciclabili"
+                ]
+            }
+        },
+        "FOOTER":{
+            "LEGALNOTES": "NOTE LEGALI",
+            "PRIVACYREQUESTFORM":"FORM PRIVACY",
+            "EMAILALERTS":"NOTIFICHE E-MAIL",
+            "ALLRIGHTSRESERVED" : "Tutti i diritti riservati."
+        }
+    }
+   
+}

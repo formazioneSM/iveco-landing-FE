@@ -1,0 +1,206 @@
+{
+    "NAVBAR":{
+        "HOME":"Beyond | Iveco Group",
+        "LIVESTRAMING": "Live Streaming",
+        "EVENT": "The Event",
+        "PROGRAM": "The Programme",
+        "SPEAKERS": "The Speakers",
+        "SUSTAINABILITY": "Event Sustainability",
+        "FOOTER": "Privacy"
+    },
+    "ALL":{
+        "HOME": {
+            "UNDERBEYOND":{
+                "PLACEANDDATES": "Turin, 13th – 17th",
+                "MONTH":"July",
+                "LIVEFROM": "Live from Turin"
+            }
+        },
+        "LIVESTREAMINGIN":{
+            "TITLE":"in",
+            "DAYS":"days",
+            "HOURS":"hours",
+            "MINUTES":"minutes",
+            "SECONDS":"seconds"
+        },
+        "EVENT":{
+            "TITLE": "The Event",
+            "TEXT": "Iveco Group will share its vision on technology, sustainability and partnerships with representatives from key stakeholders, industries and businesses during a week of events at OGR - Officine Grandi Riparazioni in Turin. A rich programme of Roundtables, Keynote Speeches and Duets which will be streamed each day, giving the audience insight into some of the most pressing issues facing our industry, such as the future of road transport, urban mobility, powertrains & technology, smart factories, and new financial business models. Join us and share our vision!"
+        },
+        "PROGRAM":{
+            "TITLE": "The Programme",
+            "BODY": "Professori universitari, Esperti del settore, Partners, Associazioni, Amministratori Delegati di importanti aziende, Fondatori di Start Up e il Senior Leadership Team di Iveco Group contribuiranno ogni giorno alle discussioni secondo i temi del programma.",
+            "PROGRAMS":[
+                {
+                    "DATE": "13th July:",
+                    "TITLE":"EVENT OPENING & FUTURE DUETS",
+                    "TIMES":[
+                        {
+                            "TIME":"12:00",
+                            "TEXT":"Press Conference"
+                        },
+                        {
+                            "TIME":"14:30 – 18:30",
+                            "TEXT":"Future Duets: Moderated discussions with industry Experts"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "14th July:",
+                    "TITLE":"TECHNOLOGY SESSION",
+                    "TIMES":[
+                        {
+                            "TIME":"14:30 – 17:10",
+                            "TEXT":"Keynote Speeches and Business Roundtables on Artificial Intelligence, Automation Trends, Technological Roadmaps for Propulsions, and Digitalisation"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "15th July:",
+                    "TITLE":"SUSTAINABILITY & PARTNERSHIP SESSIONS",
+                    "TIMES":[
+                        {
+                            "TIME":"10:30 – 13:30",
+                            "TEXT":"Keynote Speeches and Roundtables on Alternative Fuels and Tractions for the Future of the Transport Industry"
+                        },
+                        {
+                            "TIME":"15:00 – 15:30",
+                            "TEXT":"“The Iveco Group Way“ - Collaboration and Partnership Duet with Gerrit Marx, CEO, Iveco Group"
+                        },
+                        {
+                            "TIME":"15:40 – 16:20",
+                            "TEXT":"FPT Industrial Roundtable: Collaboration and Partnership as key drivers for success and innovation"
+                        },
+                        {
+                            "TIME":"17:00 – 18:30",
+                            "TEXT":"BEYOND - #TalkingOperations – Roundtables Operations and awards ceremony"
+                        }
+                    ]
+                }
+            ]
+        },
+        "SPEAKERS":{
+            "TITLE": "The Speakers",
+            "TEXT": "The high-level programme will include insightful contributions from Professors, Experts, Customers, Business Partners, Associations, Leading Industry CEOs, Start-up Founders and the Iveco Group Senior Leadership Team.",
+            "PROGRAMS":[
+                {
+                    "DATE": "13 th July:",
+                    "TITLE":"Future Duets: ",
+                    "SUBTITLE": "Moderated discussions with industry Experts",
+                    "DUETS":{
+                        "TITLE":"DUETS"
+                    },
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "KEYNOTES SPEECHS"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "14.30-14.40",
+                            "TEXT": "SKILLS FOR THE FUTURE MOBILITY: How hig-level trainig is changing",
+                            "NAME":"GUIDO",
+                            "SURNAME":"SARACCO",
+                            "ROLE":"Rector, Politecnico di Torino"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 2",
+                            "DATE": "15.30-15.40",
+                            "TEXT": "THE DEVELOPMENT OF SUSTAINABLE MOBILITY",
+                            "NAME":"ANTHEA",
+                            "SURNAME":"GRECO",
+                            "ROLE":"Partnerships Lead, Via"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.30-16.40",
+                            "TEXT": "COFFEE, PIZZA & POP CORN  AND THE FUTURE OF MOBILITY",
+                            "NAME":"BERNARDO",
+                            "SURNAME":"BERTOLDI",
+                            "ROLE":"Professor of Economics and Business Management, University of Turin"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 4",
+                            "DATE": "17.40-17.50",
+                            "TEXT": "ARTIFICIAL INTELLIGENCE TO IMAGINE THE FACTORY OF THE FUTURE",
+                            "NAME":"MASSIMO",
+                            "SURNAME":"CAVAZZINI",
+                            "ROLE":"Head of Industrial EMEA, AWS"
+                        }
+                    ],
+                    "DUETSDATA": [
+                        {
+                            "TITLE": "DUET 1",
+                            "DATE": "14.50-15.20",
+                            "TEXT": "THE SUSTAINABLE FUTURE OF ROAD TRANSPORT",
+                            "NAME1":"LUCA",
+                            "SURNAME1":"SRA",
+                            "ROLE1":"President, Truck Business Unit, Iveco Group",
+                            "NAME2":"GIULIA",
+                            "SURNAME2":"GENUARDI",
+                            "ROLE2":"Head of Sustainability Planning and Performance Management, Enel"
+                        },
+                        {
+                            "TITLE": "DUET 2",
+                            "DATE": "15.50-16.20",
+                            "TEXT": "THE FUTURE OF URBAN MOBILITY",
+                            "NAME1":"DOMENICO",
+                            "SURNAME1":"NUCERA",
+                            "ROLE1":"President, Bus Business Unit, Iveco Group",
+                            "NAME2":"MOHAMED",
+                            "SURNAME2":"MEZGHANI",
+                            "ROLE2":"Secretary General, UITP"
+                        },
+                        {
+                            "TITLE": "DUET 3",
+                            "DATE": "17.00-17.30",
+                            "TEXT": "NEW BUSINESS MODELS FOR MOVING  PEOPLE AND GOODS",
+                            "NAME1":"SIMONE",
+                            "SURNAME1":"OLIVATI",
+                            "ROLE1":"President, Financial Services, Iveco Group",
+                            "NAME2":"NOTHACKER",
+                            "SURNAME2":"DAVID",
+                            "ROLE2":"Co-Founder & CEO, Sennder"
+                        },
+                        {
+                            "TITLE": "DUET 4",
+                            "DATE": "18.00-18.30",
+                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE–PROOF OPERATIONAL SKILLS",
+                            "NAME1":"ANNALISA",
+                            "SURNAME1":"STUPENENGO",
+                            "ROLE1":"Chief Operations Officer, Iveco Group",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"AVINO",
+                            "ROLE2":"Chief Executive Officer, Argotec"
+                        }
+                    ]
+                }
+            ]
+            
+            
+            
+        },
+        "SUSTAINABILITY":{
+            "TITLE": "Event Sustainability",
+            "TEXT": {
+                "TITLE": "WE WALK THE TALK –SUSTAINABILITY EVENT",
+                "BODY": "The CO2 emissions generated from BEYOND – Iveco Group Days will be calculated, reduced and offset through the LifeGate Zero Impact initiative. During the event:",
+                "LIST":
+                [
+                    "Water bottles are made from Bio Bottle, a 100% biodegradable material",
+                    "Plastic bottle tops will be donated to the La Madonnina di Candiolo ONLUS home to support their self-financing activities",
+                    "Led lights will be used on the stage and sets to reduce energy consumption",
+                    "Instead of traditional event giveaways, we are supporting a Save the Children project to tackle educational poverty in Italy",
+                    "No food waste: every day, uneaten food will be donated to Federcongressi & eventi’s FOOD for GOOD programme",
+                    "All materials distributed at the event (badges, lanyards etc.,) are made from recycled or recyclable materials"
+                ]
+            }
+        },
+        "FOOTER":{
+            "LEGALNOTES": "LEGAL NOTES",
+            "PRIVACYREQUESTFORM":"PRIVACY REQUEST FORM",
+            "EMAILALERTS":"E-MAIL ALERTS",
+            "ALLRIGHTSRESERVED" : "All Rights Reserved"
+        }
+    }
+  
+}

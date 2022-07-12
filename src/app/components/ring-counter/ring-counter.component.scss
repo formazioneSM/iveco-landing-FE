@@ -1,0 +1,191 @@
+#pallini {
+    opacity: .5;
+    position: absolute;
+}
+
+.countdown-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row-reverse;
+
+
+    .counter-wrapper {
+        .counter {
+            position: relative;
+            align-items: center;
+            margin: 0 71px;
+            display: flex;
+            justify-content: center;
+            transform: scale(1.5);
+
+            .value {
+                color: white;
+                font-size: 31px;
+                position: absolute;
+                margin: auto;
+                z-index: 10;
+                font-weight: 900;
+                text-align: center;
+            }
+        }
+
+        .text {
+            color: white;
+            font-family: codec-heavy;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+}
+
+.loader {
+    font-size: 8px;
+    margin: 0px auto;
+    text-indent: -9999em;
+    width: 11em;
+    height: 11em;
+    border-radius: 50%;
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+
+    // &.s {
+    //     -webkit-animation: load3 1s infinite linear;
+    //     animation: load3 1s infinite linear;
+    // }
+
+    // &.m {
+    //     -webkit-animation: load2 60s infinite linear;
+    //     animation: load2 60s infinite linear;
+    // }
+
+    // &.h {
+    //     -webkit-animation: load3 3600s infinite linear;
+    //     animation: load3 3600s infinite linear;
+    // }
+
+    // &.d {
+    //     -webkit-animation: load2 86400s infinite linear;
+    //     animation: load2 86400s infinite linear;
+    // }
+}
+
+.loader:before {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.loader:after {
+    background: var(--light-blue);
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes load2 {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes load2 {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+}
+
+svg {
+    width: 100px;
+    height: 100px;
+
+    text {
+        font-size: 25px;
+        font-family: selawk-light;
+        color: white !important;
+        fill: white;
+        // font-weight: bold;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:950px) {
+
+    svg {
+        overflow: visible;
+    }
+
+    .countdown-wrapper {
+        .counter-wrapper {
+            width: 83px;
+
+            .counter {
+                margin: 0;
+                transform: scale(.7);
+            }
+            .text {
+                color: white;
+                font-family: codec-heavy;
+                font-size: 1em;
+                text-align: center;
+                margin-top: 0;
+            }
+        }
+    }
+}

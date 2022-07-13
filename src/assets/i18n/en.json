@@ -157,8 +157,8 @@
                             "NAME1":"SIMONE",
                             "SURNAME1":"OLIVATI",
                             "ROLE1":"President, Financial Services, Iveco Group",
-                            "NAME2":"NOTHACKER",
-                            "SURNAME2":"DAVID",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"NOTHACKER",
                             "ROLE2":"Co-Founder & CEO, Sennder"
                         },
                         {
@@ -171,6 +171,236 @@
                             "NAME2":"DAVID",
                             "SURNAME2":"AVINO",
                             "ROLE2":"Chief Executive Officer, Argotec"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "14 th July:",
+                    "TITLE":"Technology session:",
+                    "SUBTITLE": "",
+                    "DUETS":{
+                        "TITLE":"DUETS"
+                    },
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "KEYNOTES SPEECHS"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "14.30-14.40",
+                            "TEXT": "DIGITAL TRENDS FOR A SMARTER PLANET",
+                            "NAME":"BARBARA",
+                            "SURNAME":"POGGIALI",
+                            "ROLE":"President, Fondo Italiano di Investimento (FII)"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 2",
+                            "DATE": "14.50-15.00",
+                            "TEXT": "THE FUTURE OF  POWERTRAINS",
+                            "NAME":"SYLVAIN",
+                            "SURNAME":"BLAISE",
+                            "ROLE":"President, Powertrain Business Unit, Iveco Group"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.05-16.15",
+                            "TEXT": "THE FUTURE OF Artificial Intelligence ON THE ROAD",
+                            "NAME":"MARCO",
+                            "SURNAME":"LICCARDO",
+                            "ROLE":"Chief Technology & Digital Officer, Iveco Group"
+                        }
+                    ],
+                    "ROUNDTABLEDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "15.10-15.55",
+                            "TEXT": "PROPULSIONS TECHNOLOGICAL ROADMAP",
+                            "NAME1":"PHILIP",
+                            "SURNAME1":"SCARTH",
+                            "ROLE1":"Head of Open Innovation, Powertrain Prod.Engineering, Iveco Group",
+                            "NAME2":"GIORGIO",
+                            "SURNAME2":"RICCI",
+                            "ROLE2":"Head of Powertrain  Manufacturing  Operations",
+                            "NAME3":"DANIELA",
+                            "SURNAME3":"VINCI",
+                            "ROLE3":"MASMEC, CEO",
+                            "NAME4":"SASCHA",
+                            "SURNAME4":"KELTERBORN",
+                            "ROLE4":"President, Microvast Holdings, Inc",
+                            "NAME5":"NEETA",
+                            "SURNAME5":"KHARE",
+                            "ROLE5":"Head of Battery and Fuell Cells,  Iveco Group"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.25-17.10",
+                            "TEXT": "DIGITALIZATION: HOW  PRODUCTS AND SERVICES ARE EVOLVING",
+                            "NAME1":"FABRIZIO",
+                            "SURNAME1":"CONICELLA",
+                            "ROLE1":"Global Head of Digital and Advanced Technologies, Iveco Group",
+                            "NAME2":"ALAN",
+                            "SURNAME2":"SOFILLIC",
+                            "ROLE2":"Head of Electrcis & Electronics, Iveco Group",
+                            "NAME3":"JACOPO",
+                            "SURNAME3":"CORSI",
+                            "ROLE3":"Head of M&H Trucks Product Engineering , Iveco Group",
+                            "NAME4":"SHAWN",
+                            "SURNAME4":"KERRIGAN",
+                            "ROLE4":"Co-founder and COO, Plus",
+                            "NAME5":"THOMAS",
+                            "SURNAME5":"DIECKMAN",
+                            "ROLE5":"Technology and Innovation Officer Commercial Vehicles, ZF",
+                            "NAME6":"SARAH",
+                            "SURNAME6":"GREASLEY",
+                            "ROLE6":"Director, Solutions Architecture EMEA AWS",
+                            "NAME7":"VINCENZO",
+                            "SURNAME7":"RUSSI",
+                            "ROLE7":"co-founder and CEO, e-Novia"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "15 th July:",
+                    "TITLE":"Sustainability session:",
+                    "SUBTITLE": "",
+                    "DUETS":{
+                        "TITLE":"DUETS"
+                    },
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "KEYNOTES SPEECHS"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "10.30-10.50",
+                            "TEXT": "HYDROGEN IN HEAVY DUTY COMMERCIAL VEHICLES ",
+                            "NAME":"MARTIN",
+                            "SURNAME":"ZEILINGER",
+                            "ROLE":"Exec. VP and Head of CV Development Tech Unit, Hyundai Motor Company"
+                        }
+                    ],
+                    "DUETSDATA":[
+                        {
+                            "TITLE": "DUET 1",
+                            "DATE": "15.00-15.30",
+                            "TEXT": "Iveco Group LEADING THE CHANGE ",
+                            "NAME1":"GUERRIT",
+                            "SURNAME1":"MARX",
+                            "ROLE1":"CEO, Iveco Group",
+                            "NAME2":"MICHAEL",
+                            "SURNAME2":"LOHSCHELLER",
+                            "ROLE2":"President, Nikola Motor"
+                        }
+                    ],
+                    "ROUNDTABLEDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "11.45-12.20",
+                            "TEXT": "ELECTRIFICATION: THREAT OR OPPORTUNITY?",
+                            "NAME1":"LAURA",
+                            "SURNAME1":"GALLI",
+                            "ROLE1":"BEV Business Development Manager, IVECO",
+                            "NAME2":"THOMAS",
+                            "SURNAME2":"FABIAN",
+                            "ROLE2":"Commercial Vehicles Director, ACEA",
+                            "NAME3":"PAOLA",
+                            "SURNAME3":"PILLON",
+                            "ROLE3":"Global Accounts Director, Enel-X Way",
+                            "NAME4":"GIUSEPPE",
+                            "SURNAME4":"MASTROVITI",
+                            "ROLE4":"CTO and COO, Brebemi A35 Highway",
+                            "NAME5":"ANITA",
+                            "SURNAME5":"TONI",
+                            "ROLE5":"Head of Funding & Partnerships, ARRIVA"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "10.55-11.40",
+                            "TEXT": "THE RIGHT TIME FOR H2-MOBILITY",
+                            "NAME1":"GIANDOMENICO",
+                            "SURNAME1":"FIORETTI",
+                            "ROLE1":"Head of Alternative Propulsion Business Development, IVECO",
+                            "NAME2":"JORGO",
+                            "SURNAME2":"CHATZIMARKAKIS",
+                            "ROLE2":"CEO, Hydrogen Europe",
+                            "NAME3":"CECILIA",
+                            "SURNAME3":"RENZI-FOUVRI",
+                            "ROLE3":"VP Hydrogen Energy South West Europe, Air Liquide",
+                            "NAME4":"HANNAH",
+                            "SURNAME4":"BRYSON-JONES",
+                            "ROLE4":"Principal, Element Energy",
+                            "NAME5":"LUIGI",
+                            "SURNAME5":"LUGARO",
+                            "ROLE5":"CTO, SASA Bolzano",
+                            "NAME6":"MARTIN",
+                            "SURNAME6":"ZEILINGER",
+                            "ROLE6":"Exec. VP and Head of CV Development Tech Unit, Hyundai Motor Company"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "12.10-12.50",
+                            "TEXT": "BIO-METHANE: THE FUTURE IS NOW",
+                            "NAME1":"MATTIA",
+                            "SURNAME1":"MARITATI",
+                            "ROLE1":"Gas Business Development Manager, IVECO",
+                            "NAME2":"THOMAS",
+                            "SURNAME2":"DE BOER",
+                            "ROLE2":"VP Commercial Road Transport, Shell",
+                            "NAME3":"HERMEN",
+                            "SURNAME3":"DEKKER",
+                            "ROLE3":"CEO, European Biogas Association",
+                            "NAME4":"MANFRED",
+                            "SURNAME4":"GIUS",
+                            "ROLE4":"CEO, Biogas Wipptal",
+                            "NAME5":"JEAN-MARC",
+                            "SURNAME5":"BOUCHERET",
+                            "ROLE5":"Sustainability Manager, IVECO BUS"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "15.40-16.20",
+                            "TEXT": "CHANGING PROPULSION ALSO FOR AGRICULTURE AND MARINE SECTORS",
+                            "NAME1":"PIERPAOLO",
+                            "SURNAME1":"BIFFALI",
+                            "ROLE1":"Vice President Product Engineering, FPT Industrial",
+                            "NAME2":"ANIRUDH",
+                            "SURNAME2":"BHUWALKA",
+                            "ROLE2":"BECV",
+                            "NAME3":"CHRIS",
+                            "SURNAME3":"MANN",
+                            "ROLE3":"Chairman and Chief Technical Officer, Bennaman",
+                            "NAME4":"FRANCESCO",
+                            "SURNAME4":"FARINETTI",
+                            "ROLE4":"CEO , Green Pea ; Board Member, Eataly; Partnerships, Fontanafredda",
+                            "NAME5":"OSCAR",
+                            "SURNAME5":"BARONCELLI",
+                            "ROLE5":"Tractors Product Management Leader Global, New Holland Agriculture",
+                            "NAME6":"ALESSANDRO",
+                            "SURNAME6":"ROSSI",
+                            "ROLE6":"Chief Technical Officer at Azimut|Benetti Group"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "17.00-17.30",
+                            "TEXT": "BEYOND # TALKINGOPERATIONS ",
+                            "NAME1":"PAOLO",
+                            "SURNAME1":"STREPARAVA",
+                            "ROLE1":"CEO Streparava",
+                            "NAME2":"DINO",
+                            "SURNAME2":"MAGGIONI",
+                            "ROLE2":"COO Global Systems Business Unit - Bermbo",
+                            "NAME3":"SAMI",
+                            "SURNAME3":"KRIMI",
+                            "ROLE3":"SVP operations, Continental",
+                            "NAME4":"ROSSANO",
+                            "SURNAME4":"FRANCIA",
+                            "ROLE4":"Head of Vendor Management & Developent - ENI",
+                            "NAME5":"LEAH",
+                            "SURNAME5":"KORGAARDS",
+                            "ROLE5":"Managing Director Central South Europe - Maersk",
+                            "NAME6":"ALESSANDRO",
+                            "SURNAME6":"ROSSI",
+                            "ROLE6":"Chief Technical Officer at Azimut|Benetti Group"
                         }
                     ]
                 }

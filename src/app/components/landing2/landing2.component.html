@@ -57,17 +57,152 @@
   <div class="sectionTitle" id="title">
     <div>{{'ALL.PROGRAM.TITLE' | translate}}</div>
   </div>
-  <div *ngFor="let p of programData;let i = index" class="programRow">
-    <div class="date"><span>{{'ALL.PROGRAM.PROGRAMS.'+i+'.DATE' | translate}}</span> <div class="verticalSeparator"></div></div>
-    <div  class="containerProgramDetail">
-      <div class="programTitle">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TITLE' | translate}}</div>
-      <div *ngFor="let t of p.time;let it = index">
-        <div  class="programTimeAndText">
-          <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TIME' | translate}}</div>
-          <div class="programText">{{'ALL.PROGRAM.PROGRAMS.'+i+'.TIMES.'+it+'.TEXT' | translate}}</div>
-        </div>
-        <div *ngIf="t" class="horizontalSeparator"></div>
+  <div *ngFor="let p of programData;let ip = index" class="accordion" id="accordionExample"
+    style="background: transparent;">
+    <div class="accordion-item" style="background: transparent;border:none;">
+      <div class="accordion-header" [id]="p.idHeading" style="background: transparent;">
+        <button style="background: transparent;padding:0;" class="accordion-button" type="button"
+          data-bs-toggle="collapse" attr.data-bs-target="{{'#'+p.id}}" aria-expanded="true" aria-controls="collapseOne">
+          <div class="programRow">
+            <div class="date"><span>{{'ALL.PROGRAM.PROGRAMS.'+ip+'.DATE' | translate}}</span>
+              <div class="verticalSeparator"></div>
+            </div>
+            <div class="containerProgramDetail">
+              <div class="programTitle">{{'ALL.PROGRAM.PROGRAMS.'+ip+'.TITLE' | translate}}</div>
+              <div *ngFor="let t of p.time;let it = index">
+                <div class="programTimeAndText">
+                  <div class="programTime">{{'ALL.PROGRAM.PROGRAMS.'+ip+'.TIMES.'+it+'.TIME' | translate}}</div>
+                  <div class="programText">{{'ALL.PROGRAM.PROGRAMS.'+ip+'.TIMES.'+it+'.TEXT' | translate}}</div>
+                </div>
+                <div *ngIf="t" class="horizontalSeparator"></div>
+              </div>
+            </div>
+          </div>
+        </button>
       </div>
+      <div [id]="p.id" class="accordion-collapse collapse show" attr.aria-labelledby="{{p.idHeading}}"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body" style="padding:0;">
+          <div *ngFor="let s of p.speakersData;let i = index">
+            <div [id]="p.id" class="accordion-collapse collapse show" attr.aria-labelledby="{{p.idHeading}}"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body" style="padding:0;">
+                <!-- <div class="speechTitles">
+                  {{'ALL.SPEAKERS.PROGRAMS.'+i+'.KEYNOTESSPEECHS.TITLE' | translate}}
+                </div> -->
+                <div class="speakersWrapper">
+                  <div class="verticalSeparator"></div>
+                  <div *ngFor="let sp of s.keynoteSpeechs;let si = index" class="speaker col">
+                    <!-- <div class="horizontalSeparator"></div>
+                <div class="title">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.SPEAKERSDATA.'+si+'.TITLE' | translate}}</div>
+                <div class="horizontalSeparator"></div> -->
+                    <div class="speakerdate">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.SPEAKERSDATA.'+si+'.DATE' | translate}}
+                    </div>
+                    <div class="horizontalSeparator"></div>
+                    <div class="text">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.SPEAKERSDATA.'+si+'.TEXT' | translate}}</div>
+
+                    <div class="imageAndText">
+                      <!-- <div class="speakerImage">
+                     <img src="../../../assets/images/guido-saracco.png" alt=""> 
+                     <img [src]="sp" alt="">
+                    
+                  </div> -->
+                      <div class="speakerName"><span
+                          class="name">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.SPEAKERSDATA.'+si+'.NAME' |
+                          translate}} </span>
+                        <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.SPEAKERSDATA.'+si+'.SURNAME' |
+                          translate}}</span>
+                      </div>
+                      <div class="horizontalSeparator"></div>
+                      <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.SPEAKERSDATA.'+si+'.ROLE' | translate}}</div>
+                    </div>
+                    <div class="heavyHorizontalSeparator"></div>
+                  </div>
+                  <div class="verticalSeparator"></div>
+                </div>
+                <!-- <div class="speechTitles">
+                  {{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETS.TITLE' | translate}}
+                </div> -->
+                <div class="duetsWrapper" *ngIf="s.duets">
+                  <div class="verticalSeparator"></div>
+                  <div *ngFor="let d of s.duets;let id = index" class="duet col">
+                    <!-- <div class="horizontalSeparator"></div>
+                <div class="title">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.TITLE' | translate}}</div>
+                <div class="horizontalSeparator"></div> -->
+                    <div class="duetdate">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.DATE' | translate}}</div>
+                    <div class="horizontalSeparator"></div>
+                    <div class="text">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.TEXT' | translate}}</div>
+
+                    <div class="imageAndText">
+                      <!-- <div class="duetImage">
+                     <img src="../../../assets/images/luca-sra.png" alt=""> 
+                     <img [src]="d.img1" alt="">
+                  </div> -->
+                      <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.NAME1'
+                          |
+                          translate}} </span>
+                        <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.SURNAME1' |
+                          translate}}</span>
+                      </div>
+                      <div class="horizontalSeparator"></div>
+                      <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.ROLE1' | translate}}</div>
+                    </div>
+                    <div class="imageAndText" style="margin: 0 0 15px 0">
+                      <!-- <div class="duetImage">
+                     <img src="../../../assets/images/giulia-genuardi.jpg" alt=""> 
+                     <img [src]="d.img2" alt="">
+                  </div> -->
+                      <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.NAME2'
+                          |
+                          translate}} </span>
+                        <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.SURNAME2' |
+                          translate}}</span>
+                      </div>
+                      <div class="horizontalSeparator"></div>
+                      <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.ROLE2' | translate}}</div>
+                    </div>
+                    <div class="heavyHorizontalSeparator"></div>
+                  </div>
+                  <div class="verticalSeparator"></div>
+
+                </div>
+                <div class="duetsWrapper" *ngIf="s.roundtables">
+                  <div class="verticalSeparator"></div>
+                  <div *ngFor="let d of s.roundtables;let id = index" class="duet col">
+                    <!-- <div class="horizontalSeparator"></div>
+                <div class="title">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.DUETSDATA.'+id+'.TITLE' | translate}}</div>
+                <div class="horizontalSeparator"></div> -->
+                    <div class="duetdate">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.ROUNDTABLEDATA.'+id+'.DATE' | translate}}</div>
+                    <div class="horizontalSeparator"></div>
+                    <div class="text">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.ROUNDTABLEDATA.'+id+'.TEXT' | translate}}</div>
+                    <div *ngFor="let rt of d;let rtid = index">
+
+
+                      <div class="imageAndText">
+                        <div class="speakerName"><span
+                            class="name">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.ROUNDTABLEDATA.'+id+'.NAME'+(rtid+1) | translate}} </span>
+                          <span class="surname">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.ROUNDTABLEDATA.'+id+'.SURNAME'+(rtid+1) | translate}}</span>
+                        </div>
+                        <div class="horizontalSeparator"></div>
+                        <div class="role">{{'ALL.SPEAKERS.PROGRAMS.'+ip+'.ROUNDTABLEDATA.'+id+'.ROLE'+(rtid+1) | translate}}
+                        </div>
+                      </div>
+
+                      <div class="heavyHorizontalSeparator"></div>
+
+                    </div>
+                  </div>
+                  <div class="verticalSeparator"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   </div>
 </section>
@@ -83,7 +218,7 @@
       </div>
     </div>
 </section>
-<section id="speakers2">
+<!-- <section id="speakers2">
   <div class="sectionTitle" id="title">
     <div>{{'ALL.SPEAKERS.TITLE' | translate}}</div>
   </div>
@@ -112,7 +247,7 @@
         
         <div class="imageAndText">
           <div class="speakerImage">
-             <!-- <img src="../../../assets/images/guido-saracco.png" alt="">  -->
+             <img src="../../../assets/images/guido-saracco.png" alt=""> 
              <img [src]="sp" alt="">
             
           </div>
@@ -140,7 +275,7 @@
         
         <div class="imageAndText">
           <div class="duetImage">
-             <!-- <img src="../../../assets/images/luca-sra.png" alt="">  -->
+             <img src="../../../assets/images/luca-sra.png" alt=""> 
              <img [src]="d.img1" alt="">
           </div>
           <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.NAME1' | translate}} </span>
@@ -150,7 +285,7 @@
         </div>
         <div class="imageAndText" style="margin: 0 0 15px 0">
           <div class="duetImage">
-             <!-- <img src="../../../assets/images/giulia-genuardi.jpg" alt="">  -->
+             <img src="../../../assets/images/giulia-genuardi.jpg" alt=""> 
              <img [src]="d.img2" alt="">
           </div>
           <div class="speakerName"><span class="name">{{'ALL.SPEAKERS.PROGRAMS.'+i+'.DUETSDATA.'+id+'.NAME2' | translate}} </span>
@@ -164,7 +299,7 @@
 
     </div>
   </div>
-</section> 
+</section>  -->
 <section id="sustainability">
   <div class="sectionTitle" id="title">
     <div>{{'ALL.SUSTAINABILITY.TITLE' | translate}}</div>

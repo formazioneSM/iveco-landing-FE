@@ -156,6 +156,137 @@
                             "NAME1":"SIMONE",
                             "SURNAME1":"OLIVATI",
                             "ROLE1":"President, Financial Services, Iveco Group",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"NOTHACKER",
+                            "ROLE2":"Co-Founder & CEO, Sennder"
+                        },
+                        {
+                            "TITLE": "DUET 4",
+                            "DATE": "18.00-18.30",
+                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE – PROOF OPERATIONAL SKILLS",
+                            "NAME1":"ANNALISA",
+                            "SURNAME1":"STUPENENGO",
+                            "ROLE1":"Chief Operations Officer, Iveco Group",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"AVINO",
+                            "ROLE2":"Chief Executive Officer, Argotec"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "14 th July:",
+                    "TITLE":"Technology session:",
+                    "SUBTITLE": "",
+                    "DUETS":{
+                        "TITLE":"DUETS"
+                    },
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "KEYNOTES SPEECHS"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "14.30-14.40",
+                            "TEXT": "DIGITAL TRENDS FOR A SMARTER PLANET",
+                            "NAME":"BARBARA",
+                            "SURNAME":"POGGIALI",
+                            "ROLE":"President, Fondo Italiano di Investimento (FII)"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 2",
+                            "DATE": "14.50-15.00",
+                            "TEXT": "THE FUTURE OF  POWERTRAINS",
+                            "NAME":"SYLVAIN",
+                            "SURNAME":"BLAISE",
+                            "ROLE":"President, Powertrain Business Unit, Iveco Group"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.05-16.15",
+                            "TEXT": "THE FUTURE OF Artificial Intelligence ON THE ROAD",
+                            "NAME":"MARCO",
+                            "SURNAME":"LICCARDO",
+                            "ROLE":"Chief Technology & Digital Officer, Iveco Group"
+                        }
+                    ],
+                    "ROUNDTABLEDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "15.10-15.55",
+                            "TEXT": "PROPULSIONS TECHNOLOGICAL ROADMAP",
+                            "NAME1":"PHILIP",
+                            "SURNAME1":"SCARTH",
+                            "ROLE1":"Head of Open Innovation, Powertrain Prod.Engineering, Iveco Group",
+                            "NAME2":"GIORGIO",
+                            "SURNAME2":"RICCI",
+                            "ROLE2":"Head of Powertrain  Manufacturing  Operations",
+                            "NAME3":"DANIELA",
+                            "SURNAME3":"VINCI",
+                            "ROLE3":"MASMEC, CEO",
+                            "NAME4":"SASCHA",
+                            "SURNAME4":"KELTERBORN",
+                            "ROLE4":"President, Microvast Holdings, Inc",
+                            "NAME5":"NEETA",
+                            "SURNAME5":"KHARE",
+                            "ROLE5":"Head of Battery and Fuell Cells,  Iveco Group"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "16.25-17.10",
+                            "TEXT": "DIGITALIZATION: HOW  PRODUCTS AND SERVICES ARE EVOLVING",
+                            "NAME1":"FABRIZIO",
+                            "SURNAME1":"CONICELLA",
+                            "ROLE1":"Global Head of Digital and Advanced Technologies, Iveco Group",
+                            "NAME2":"ALAN",
+                            "SURNAME2":"SOFILLIC",
+                            "ROLE2":"Head of Electrcis & Electronics, Iveco Group",
+                            "NAME3":"JACOPO",
+                            "SURNAME3":"CORSI",
+                            "ROLE3":"Head of M&H Trucks Product Engineering , Iveco Group",
+                            "NAME4":"SHAWN",
+                            "SURNAME4":"KERRIGAN",
+                            "ROLE4":"Co-founder and COO, Plus",
+                            "NAME5":"THOMAS",
+                            "SURNAME5":"DIECKMAN",
+                            "ROLE5":"Technology and Innovation Officer Commercial Vehicles, ZF",
+                            "NAME6":"SARAH",
+                            "SURNAME6":"GREASLEY",
+                            "ROLE6":"Director, Solutions Architecture EMEA AWS",
+                            "NAME7":"VINCENZO",
+                            "SURNAME67":"RUSSI",
+                            "ROLE67":"co-founder and CEO, e-Novia"
+                        }
+                    ],
+                    "DUETSDATA": [
+                        {
+                            "TITLE": "DUET 1",
+                            "DATE": "14.50-15.20",
+                            "TEXT": "THE SUSTAINABLE FUTURE OF ROAD TRANSPORT",
+                            "NAME1":"LUCA",
+                            "SURNAME1":"SRA",
+                            "ROLE1":"President, Truck Business Unit, Iveco Group",
+                            "NAME2":"GIULIA",
+                            "SURNAME2":"GENUARDI",
+                            "ROLE2":"Head of Sustainability Planning and Performance Management, Enel"
+                        },
+                        {
+                            "TITLE": "DUET 2",
+                            "DATE": "15.50-16.20",
+                            "TEXT": "THE FUTURE OF URBAN MOBILITY",
+                            "NAME1":"DOMENICO",
+                            "SURNAME1":"NUCERA",
+                            "ROLE1":"President, Bus Business Unit, Iveco Group",
+                            "NAME2":"MOHAMED",
+                            "SURNAME2":"MEZGHANI",
+                            "ROLE2":"Secretary General, UITP"
+                        },
+                        {
+                            "TITLE": "DUET 3",
+                            "DATE": "17.00-17.30",
+                            "TEXT": "NEW BUSINESS MODELS FOR MOVING  PEOPLE AND GOODS",
+                            "NAME1":"SIMONE",
+                            "SURNAME1":"OLIVATI",
+                            "ROLE1":"President, Financial Services, Iveco Group",
                             "NAME2":"NOTHACKER",
                             "SURNAME2":"DAVID",
                             "ROLE2":"Co-Founder & CEO, Sennder"
@@ -163,7 +294,139 @@
                         {
                             "TITLE": "DUET 4",
                             "DATE": "18.00-18.30",
-                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE – PROOF OPERATIONAL SKILLS",
+                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE–PROOF OPERATIONAL SKILLS",
+                            "NAME1":"ANNALISA",
+                            "SURNAME1":"STUPENENGO",
+                            "ROLE1":"Chief Operations Officer, Iveco Group",
+                            "NAME2":"DAVID",
+                            "SURNAME2":"AVINO",
+                            "ROLE2":"Chief Executive Officer, Argotec"
+                        }
+                    ]
+                },
+                {
+                    "DATE": "15 th July:",
+                    "TITLE":"Sustainability session:",
+                    "SUBTITLE": "",
+                    "DUETS":{
+                        "TITLE":"DUETS"
+                    },
+                    "KEYNOTESSPEECHS": {
+                        "TITLE": "KEYNOTES SPEECHS"
+                    },
+                    "SPEAKERSDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 1",
+                            "DATE": "10.30-10.50",
+                            "TEXT": "HYDROGEN IN HEAVY DUTY COMMERCIAL VEHICLES ",
+                            "NAME":"MARTIN",
+                            "SURNAME":"ZEILINGER",
+                            "ROLE":"Exec. VP and Head of CV Development Tech Unit, Hyundai Motor Company"
+                        }
+                    ],
+                    "ROUNDTABLEDATA":[
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "11.45-12.20",
+                            "TEXT": "ELECTRIFICATION: THREAT OR OPPORTUNITY?",
+                            "NAME1":"LAURA",
+                            "SURNAME1":"GALLI",
+                            "ROLE1":"BEV Business Development Manager, IVECO",
+                            "NAME2":"THOMAS",
+                            "SURNAME2":"FABIAN",
+                            "ROLE2":"Commercial Vehicles Director, ACEA",
+                            "NAME3":"PAOLA",
+                            "SURNAME3":"PILLON",
+                            "ROLE3":"Global Accounts Director, Enel-X Way",
+                            "NAME4":"GIUSEPPE",
+                            "SURNAME4":"MASTROVITI",
+                            "ROLE4":"CTO and COO, Brebemi A35 Highway",
+                            "NAME5":"ANITA",
+                            "SURNAME5":"TONI",
+                            "ROLE5":"Head of Funding & Partnerships, ARRIVA"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "10.55-11.40",
+                            "TEXT": "THE RIGHT TIME FOR H2-MOBILITY",
+                            "NAME1":"GIANDOMENICO",
+                            "SURNAME1":"FIORETTI",
+                            "ROLE1":"Head of Alternative Propulsion Business Development, IVECO",
+                            "NAME2":"JORGO",
+                            "SURNAME2":"CHATZIMARKAKIS",
+                            "ROLE2":"CEO, Hydrogen Europe",
+                            "NAME3":"CECILIA",
+                            "SURNAME3":"RENZI-FOUVRI",
+                            "ROLE3":"VP Hydrogen Energy South West Europe, Air Liquide",
+                            "NAME4":"HANNAH",
+                            "SURNAME4":"BRYSON-JONES",
+                            "ROLE4":"Principal, Element Energy",
+                            "NAME5":"LUIGI",
+                            "SURNAME5":"LUGARO",
+                            "ROLE5":"CTO, SASA Bolzano",
+                            "NAME6":"MARTIN",
+                            "SURNAME6":"ZEILINGER",
+                            "ROLE6":"Exec. VP and Head of CV Development Tech Unit, Hyundai Motor Company"
+                        },
+                        {
+                            "TITLE": "KEYNOTE SPEECH 3",
+                            "DATE": "12.10-12.50",
+                            "TEXT": "BIO-METHANE: THE FUTURE IS NOW",
+                            "NAME1":"MATTIA",
+                            "SURNAME1":"MARITATI",
+                            "ROLE1":"Gas Business Development Manager, IVECO",
+                            "NAME2":"THOMAS",
+                            "SURNAME2":"DE BOER",
+                            "ROLE2":"VP Commercial Road Transport, Shell",
+                            "NAME3":"HERMEN",
+                            "SURNAME3":"DEKKER",
+                            "ROLE3":"CEO, European Biogas Association",
+                            "NAME4":"MANFRED",
+                            "SURNAME4":"GIUS",
+                            "ROLE4":"CEO, Biogas Wipptal",
+                            "NAME5":"JEAN-MARC",
+                            "SURNAME5":"BOUCHERET",
+                            "ROLE5":"Sustainability Manager, IVECO BUS"
+                        }
+                    ],
+                    "DUETSDATA": [
+                        {
+                            "TITLE": "DUET 1",
+                            "DATE": "14.50-15.20",
+                            "TEXT": "THE SUSTAINABLE FUTURE OF ROAD TRANSPORT",
+                            "NAME1":"LUCA",
+                            "SURNAME1":"SRA",
+                            "ROLE1":"President, Truck Business Unit, Iveco Group",
+                            "NAME2":"GIULIA",
+                            "SURNAME2":"GENUARDI",
+                            "ROLE2":"Head of Sustainability Planning and Performance Management, Enel"
+                        },
+                        {
+                            "TITLE": "DUET 2",
+                            "DATE": "15.50-16.20",
+                            "TEXT": "THE FUTURE OF URBAN MOBILITY",
+                            "NAME1":"DOMENICO",
+                            "SURNAME1":"NUCERA",
+                            "ROLE1":"President, Bus Business Unit, Iveco Group",
+                            "NAME2":"MOHAMED",
+                            "SURNAME2":"MEZGHANI",
+                            "ROLE2":"Secretary General, UITP"
+                        },
+                        {
+                            "TITLE": "DUET 3",
+                            "DATE": "17.00-17.30",
+                            "TEXT": "NEW BUSINESS MODELS FOR MOVING  PEOPLE AND GOODS",
+                            "NAME1":"SIMONE",
+                            "SURNAME1":"OLIVATI",
+                            "ROLE1":"President, Financial Services, Iveco Group",
+                            "NAME2":"NOTHACKER",
+                            "SURNAME2":"DAVID",
+                            "ROLE2":"Co-Founder & CEO, Sennder"
+                        },
+                        {
+                            "TITLE": "DUET 4",
+                            "DATE": "18.00-18.30",
+                            "TEXT": "TO GET TO THE MOON AND BACK REQUIRES FUTURE–PROOF OPERATIONAL SKILLS",
                             "NAME1":"ANNALISA",
                             "SURNAME1":"STUPENENGO",
                             "ROLE1":"Chief Operations Officer, Iveco Group",

@@ -50,39 +50,69 @@ export class Landing2Component implements AfterViewInit {
   }
   programData:any[] = [
     {
-      time: [true, false]
+      id:"primo",
+      idHeading:'primoHeading',
+      time: [true, false],
+      speakersData: [
+        {
+          keynoteSpeechs: [
+            '../../../assets/images/guido-saracco.png',
+            '../../../assets/images/anthea-greco.jpg',
+            '../../../assets/images/bernardo-bertoldi.png',
+            '../../../assets/images/massimo-cavazzini.jpg'
+          ],
+          duets: [
+            {
+              img1: '../../../assets/images/luca-sra.png',
+              img2: '../../../assets/images/giulia-genuardi.jpg'
+            },
+            {
+              img1: '../../../assets/images/domenico-nucera.png',
+              img2: '../../../assets/images/mohamed-mezghani.jpg'
+            },
+            {
+              img1: '../../../assets/images/simone-olivati.png',
+              img2: '../../../assets/images/nothacker-david.jpg'
+            },
+            {
+              img1: '../../../assets/images/annalisa-stupenengo.png',
+              img2: '../../../assets/images/david-avino.jpg'
+            }
+          ]
+        }
+      ]
     },
     {
-      time: [false]
+      id:"secondo",
+      idHeading:'secondoHeading',
+      time: [false],
+      speakersData: [
+        {
+          keynoteSpeechs: [
+            '../../../assets/images/guido-saracco.png',
+            '../../../assets/images/anthea-greco.jpg',
+            '../../../assets/images/bernardo-bertoldi.png'
+          ],
+          roundtables: [new Array(5), new Array(7)]
+        }
+      ]
     },
     {
-      time: [true, true, true, false]
-    }
-  ];
-  speakersData:any[] = [
-    {
-      keynoteSpeechs: [
-        '../../../assets/images/guido-saracco.png',
-        '../../../assets/images/anthea-greco.jpg',
-        '../../../assets/images/bernardo-bertoldi.png',
-        '../../../assets/images/massimo-cavazzini.jpg'
-      ],
-      duets: [
+      id:"terzo",
+      idHeading:'terzoHeading',
+      time: [true, true, true, false],
+      speakersData: [
         {
-          img1: '../../../assets/images/luca-sra.png',
-          img2: '../../../assets/images/giulia-genuardi.jpg'
-        },
-        {
-          img1: '../../../assets/images/domenico-nucera.png',
-          img2: '../../../assets/images/mohamed-mezghani.jpg'
-        },
-        {
-          img1: '../../../assets/images/simone-olivati.png',
-          img2: '../../../assets/images/nothacker-david.jpg'
-        },
-        {
-          img1: '../../../assets/images/annalisa-stupenengo.png',
-          img2: '../../../assets/images/david-avino.jpg'
+          keynoteSpeechs: [
+            '../../../assets/images/guido-saracco.png'
+          ],
+          roundtables: [new Array(5),new Array(6),new Array(5), new Array(6), new Array(6)],
+          duets: [
+            {
+              img1: '../../../assets/images/luca-sra.png',
+              img2: '../../../assets/images/giulia-genuardi.jpg'
+            }
+          ]
         }
       ]
     }
